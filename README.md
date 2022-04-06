@@ -9,7 +9,7 @@ A java based Serverless application that runs on Microsoft Azure. It sends SMS e
 - Java 11
 - IDE (Visual Studio Code recommended)
 
-###Setup:
+### Setup:
 
 ```
 $ git clone <>
