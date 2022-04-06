@@ -24,6 +24,7 @@ $ mvn install
 ### Running on Azure
 
 ```
+$ az login
 $ mvn clean package && mvn azure-functions:deploy
 ```
 
