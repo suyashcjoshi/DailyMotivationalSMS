@@ -4,14 +4,26 @@ A java based Serverless application that runs on Microsoft Azure. It sends SMS e
 
 ## Pre-Requisite
 
-- RingCentral Developer Account
-- Microsoft Azure Account
-- Java 11
+- [RingCentral Developer Account](https://developers.ringcentral.com/login.html#/)
+- [Microsoft Azure Account](https://azure.microsoft.com/en-us/free/)
+- [Azure Function Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=v4%2Cmacos%2Ccsharp%2Cportal%2Cbash#v2)
+- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
+- JDK 8 or 11
+- Maven
 - IDE (Visual Studio Code recommended)
 
 ### Setup:
 
 ```
-$ git clone <>
+$ git clone <this repo>
 $ mvn install
 ```
+
+### Running locally
+
+### Running on Azure
+
+```
+$ mvn clean package && mvn azure-functions:deploy
+```
+
