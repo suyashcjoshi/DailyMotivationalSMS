@@ -27,3 +27,8 @@ $ mvn install
 $ mvn clean package && mvn azure-functions:deploy
 ```
 
+### References
+
+1. [Azure Function Java Tutorial](https://docs.microsoft.com/en-us/azure/azure-functions/functions-reference-java?tabs=bash%2Cconsumption)
+2. [RingCentral SMS API Quick Start](https://developers.ringcentral.com/guide/messaging/quick-start)
+
